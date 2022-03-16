@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withFlatten(ctor) creates new constructor with flattened properties 1`] = `
+Array [
+  "deep",
+]
+`;
+
+exports[`withFlatten(ctor) in conjuction with withProperties 1`] = `
+Array [
+  "deep",
+  "deepFoo",
+]
+`;
+
+exports[`withFlatten(ctor) in conjuction with withProperties 2`] = `
+Array [
+  "deep",
+  "deepFoo",
+  "deep",
+  "deepFoo",
+  "regular",
+  "deep",
+  "deepBarX",
+]
+`;
+
+exports[`withFlatten(ctor) in conjuction with withProperties 3`] = `
+Array [
+  "deep",
+  "deepFoo",
+  "deep",
+  "deepFoo",
+  "regular",
+  "deep",
+  "deepBarX",
+]
+`;
+
+exports[`withFlatten(ctor) in conjuction with withProperties 4`] = `
+Array [
+  "deep",
+  "deepFoo",
+  "deep",
+  "deepFoo",
+  "regular",
+  "deep",
+  "deepBarX",
+  "deep",
+  "deepBar",
+]
+`;
