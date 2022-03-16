@@ -32,7 +32,7 @@ $ npm i with-flatten
 
 ### withFlatten
 
-[src/index.ts:67-107](https://github.com/stagas/with-flatten/blob/2c44989edbbcae0b031c1d65100310589b2cb081/src/index.ts#L67-L107 "Source code on GitHub")
+[src/index.ts:67-107](https://github.com/stagas/with-flatten/blob/c8dfb35272d3a077ecf5e203e49226c10766e995/src/index.ts#L67-L107 "Source code on GitHub")
 
 Mixins `ctor` with `parent` and camelCase flattens
 and observes its properties mapping them back to the actual values.
